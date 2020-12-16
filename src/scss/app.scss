@@ -1,0 +1,80 @@
+// Grid breakpoint modifications
+$grid-breakpoints: (
+  xs: 0,
+  sm: 375px,
+  md: 768px,
+  l: 992px,
+  ll: 1200px,
+  lg: 1440px,
+  xl: 1920px
+);
+
+// Grid containers
+$container-max-widths: (
+  xs: 100%,
+  sm: 540px,
+  md: 608px,
+  l: 960px,
+  ll: 1140px,
+  lg: 1178px,
+  xl: 1464px
+);
+
+//local stylesheets
+@import 'variables';
+@import 'classes';
+@import 'header';
+@import 'hero';
+@import 'projects';
+@import 'whatWeDo';
+
+//stylesheets for BS4 grid
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/mixins";
+// @import "node_modules/bootstrap/scss/grid";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: $uq-white;
+	color: $uq-black;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+
+// .container {
+// 	max-width: 1100px;
+// 	margin: 0 auto;
+// 	padding: 0 20px;
+// 	overflow: auto;
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	justify-content: center;
+// 	height: 100vh;
+// }
+
+// header {
+// 	text-align: center;
+// 	margin-bottom: 40px;
+// 	background: rgba(0, 0, 0, 0.3);
+// 	padding: 30px;
+// 	border-bottom: 5px #fff solid;
+// }
+

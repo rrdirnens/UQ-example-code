@@ -1,0 +1,369 @@
+//What We Do section styling
+
+.what-we-do {
+    padding-top: 78px;
+
+    @media (min-width: 480px) and (max-width: 992px) {
+        padding-top: 21px;
+    }
+
+    //temporary
+    padding-bottom: 200px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 480px) {
+            padding: 0 36px 0 36px;
+        }
+
+        @media (min-width: 480px) and (max-width: 992px) {
+            padding: 0 0 0 5px;
+        }
+
+        @media (min-width: 1440px) {
+            padding: 0;
+        }
+
+        @media (min-width: 1920px) {
+            padding: 0;
+        }
+    }
+
+    .wwd-cover {
+        display: flex;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+
+        @media (min-width: 992px) {
+            flex-direction: row;
+        }
+
+        .left {
+            flex: 48;
+
+            .title {
+                font: normal normal bold 80px/85px Sora;
+                text-transform: uppercase;
+                margin-bottom: 31px;
+
+                @media (max-width: 480px) {
+                    font: normal normal bold 30px/65px Sora;
+                    text-align: center;
+                    margin-bottom: 4px;
+                }
+
+                @media (min-width: 480px) and (max-width: 992px) {
+                    font: normal normal bold 60px/65px Sora;
+                    margin-bottom: 15px;
+                }
+
+                br {
+
+                    @media (max-width: 992px) {
+                        display: none;
+                    }
+                }
+            }
+
+            .body-text {
+                font: normal normal normal 20px/32px IBM Plex Sans;
+
+                @media (max-width: 480px) {
+                    font: normal normal normal 25px/35px IBM Plex Sans;
+                }
+
+                @media (min-width: 480px) and (max-width: 992px) {
+                    font: normal normal normal 25px/35px IBM Plex Sans;
+                }
+
+                @media (min-width: 1440px) {
+                    width: 90%;
+                }
+
+                @media (min-width: 1920px) {
+                    width: 79%;
+                }
+
+                .link {
+                    text-decoration: underline;
+                    font: normal normal normal 20px/32px IBM Plex Sans;
+                    color: #000;
+
+                    @media (max-width: 480px) {
+                        font: normal normal normal 25px/35px IBM Plex Sans;
+                    }
+
+                    span {
+                        @media (max-width: 480px) {
+                            display: none;
+                        }
+                    }
+
+                    @media (min-width: 480px) {
+                        font: normal normal normal 25px/35px IBM Plex Sans;
+                    }
+                }
+            }
+        }
+
+        .right {
+            flex: 56;
+
+            @media (max-width: 480px) {
+                padding-top: 56px;
+            }
+
+            @media (min-width: 480px) and (max-width: 992px) {
+                padding-top: 53px;
+            }
+
+            .heading-cover {
+                display: flex;
+                align-items: center;
+                padding-bottom: 12px;
+
+                @media (max-width: 480px) {
+                    padding-bottom: 35px;
+                }
+
+                @media (max-width: 992px) {
+                    flex-direction: column;
+                }
+
+                @media (min-width: 992px) {
+                    flex-direction: row;
+                }
+
+                .image-cover {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+
+                    img {}
+                }
+
+                .text {
+                    padding-left: 3px;
+                    flex: 6;
+                    font: normal normal 800 35px/30px Sora;
+                    text-transform: uppercase;
+
+                    @media (max-width: 480px) {
+                        font: normal normal 800 30px/30px Sora;
+                        text-align: center;
+                        padding-top: 24px;
+                    }
+
+                    @media (min-width: 480px) and (max-width: 992px) {
+                        padding-top: 30px;
+                        padding-left: 5px;
+                        padding-bottom: 17px;
+                    }
+
+                    @media (min-width: 1440px) {
+                        padding-left: 15px;
+                    }
+
+                    @media (min-width: 1920px) {
+                        padding-left: 3px;
+                    }
+
+                }
+
+                &.top {
+                    padding-top: 3px;
+
+                    img {
+
+                        @media (max-width: 480px) {
+                            width: 88px
+                        }
+
+                        @media (min-width: 480px) and (max-width: 992px) {
+                            width: 100px
+                        }
+                    }
+                }
+
+                &.bottom {
+                    img {
+
+                        @media (max-width: 480px) {
+                            width: 104px;
+                        }
+
+                        @media (min-width: 480px) and (max-width: 992px) {
+                            width: 104px
+                        }
+                    }
+
+                    .text {
+
+                        @media (max-width: 480px) {
+                            padding-top: 18px;
+                        }
+
+                        @media (min-width: 480px) and (max-width: 992px) {
+                            padding-top: 22px;
+                            padding-bottom: 9px;
+                        }
+                    }
+
+                    @media (max-width: 480px) {
+                        padding-bottom: 27px;
+                    }
+
+                    @media (min-width: 480px) and (max-width: 992px) {
+                        padding-top: 12px;
+                        padding-left: 3px;
+                    }
+                }
+            }
+
+            .body-cover {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 15px;
+
+
+                @media (max-width: 992px) {
+                    flex-direction: column-reverse;
+                }
+
+                @media (min-width: 992px) {
+                    flex-direction: row;
+                }
+
+                .line-cover {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+
+                    .line {
+                        width: 6px;
+                        background: #000;
+                        height: 100%;
+
+                        @media (max-width: 480px) {
+                            height: 70px;
+                            margin-top: 7px;
+                        }
+
+                        @media (min-width: 480px) and (max-width: 992px) {
+                            margin-left: 5px;
+                            margin-top: 8px;
+                        }
+                    }
+                }
+
+                &.top {
+
+                    .line {
+                        @media (min-width: 480px) and (max-width: 992px) {
+                            height: 130px;
+                        }
+                    }
+                }
+
+                &.bottom {
+
+                    @media (min-width: 480px) and (max-width: 992px) {
+                        padding-bottom: 14px;
+                    }
+
+                    .line {
+
+                        @media (min-width: 480px) and (max-width: 992px) {
+                            margin-top: 26px;
+                        }
+
+                        @media (min-width: 480px) and (max-width: 992px) {
+                            height: 105px;
+                        }
+                    }
+                }
+
+                .text {
+                    flex: 6;
+                    padding-left: 3px;
+
+                    @media (min-width: 1440px) {
+                        padding-left: 15px;
+                    }
+
+                    @media (min-width: 1920px) {
+                        padding-left: 3px;
+                    }
+
+
+                    .points {
+                        margin-bottom: 10px;
+
+                        @media (max-width: 992px) {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+
+                        .point {
+                            font: normal normal normal 20px/30px IBM Plex Sans;
+                        
+                            @media (max-width: 480px) {
+                                font: normal normal normal 20px/30px IBM Plex Sans;
+                                text-align: center;
+                            }
+                        
+                        }
+                    }
+                }
+            }
+
+            .our-services {
+                margin-left: 55px;
+                margin-top: 6px;
+
+                @media (max-width: 992px) {
+                    margin-left: 0;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                @media (min-width: 1440px) {
+                    margin-left: 44px;
+                }
+
+                @media (min-width: 1920px) {
+                    margin-left: 55px;
+                }
+
+                .link {
+                    font: normal normal normal 20px/40px Sora;
+                    padding: 9px 25px 8px 27px;
+                    background-color: $uq-black;
+                    color: $uq-white;
+                    text-transform: uppercase;
+                    letter-spacing: 0.4px;
+
+                    @media (max-width: 480px) {
+                        padding: 9px 20px 6px 20px;
+                    }
+
+                    @media (min-width: 480px) and (max-width: 992px) {
+                        margin-left: 7px;
+                        font: normal normal normal 20px/27px Sora;
+                        padding: 9px 24px 9px 24px;
+                    }
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
