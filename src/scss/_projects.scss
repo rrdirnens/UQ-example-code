@@ -4,14 +4,18 @@
 .projects {
     padding-bottom: 90px;
 
+    @media (max-width: 480px) {
+        padding-bottom: 57px;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        @media (min-width: 1920px) {
-            padding-left: 6px;
-            padding-right: 6px;
+        @media (min-width: 1440px) {
+            padding-left: 0px;
+            padding-right: 0px;
         }
 
     }
@@ -92,9 +96,14 @@
             flex: 1388;
             background-color: #FFD700;
             height: 719px;
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @media (min-width: 1920px) {
+                max-width: 1125px;
+            }
 
             &.red {
                 background-color: #FF4545;
@@ -109,8 +118,20 @@
             }
 
             .project-image {
-                height: auto;
-                width: 100%;
+
+                
+                @media (max-width: 1199px) {
+                    width: 100%;
+                }
+                @media (min-width: 1200px) and (max-width: 1440px) {
+                    height: 100%;
+                }
+                @media (min-width: 1440px) and (max-width: 1919px) {
+                    height: 92%;
+                }
+                @media (min-width: 1920px) {
+                    height: 100%;
+                }
             }
         }
     }
