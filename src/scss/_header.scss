@@ -66,7 +66,7 @@
                     z-index: 10;
                     top: 82px;
                     left: 0;
-                    background-color: #EAEAEA;
+                    background-color: $uq-gray;
                     position: absolute;
                     padding-top: 9px;
 
@@ -161,7 +161,7 @@
 
             .line {
                 height: 2px;
-                background-color: #000;
+                background-color: $uq-black;
                 width: 28px;
             }
 
@@ -211,7 +211,7 @@
 .toggle-switch {
     display: inline-block;
     background: transparent;
-    border: 2px solid #000;
+    border: 2px solid $uq-black;
     border-radius: 16px;
     width: 27px;
     height: 15px;
@@ -225,7 +225,7 @@
 
     &:before {
         display: block;
-        background: #000;
+        background: $uq-black;
         border-radius: 50%;
         width: 18px;
         height: 18px;

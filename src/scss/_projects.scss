@@ -47,7 +47,7 @@
 
 
         .left {
-            background-color: #000;
+            background-color: $uq-black;
             padding: 30px 35px 30px 31px;
 
             @media (max-width: 768px) {
@@ -68,7 +68,7 @@
 
             .text,
             .link {
-                color: #fff;
+                color: $uq-white;
             }
 
             .text {
@@ -86,7 +86,7 @@
                     width: 40px;
 
                     path {
-                        fill: #fff;
+                        fill: $uq-white;
                     }
                 }
             }
@@ -94,7 +94,7 @@
 
         .right {
             flex: 1388;
-            background-color: #FFD700;
+            background-color: $uq-yellow;
             height: 719px;
             overflow: hidden;
             display: flex;
@@ -106,15 +106,15 @@
             }
 
             &.red {
-                background-color: #FF4545;
+                background-color: $uq-red;
             }
 
             &.yellow {
-                background-color: #FFD700;
+                background-color: $uq-yellow;
             }
 
             &.blue {
-                background-color: #151BC1;
+                background-color: $uq-blue;
             }
 
             .project-image {

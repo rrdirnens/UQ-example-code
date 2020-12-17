@@ -135,8 +135,8 @@
 
                 font: normal normal normal 20px/40px Sora;
                 text-transform: uppercase;
-                color: #fff;
-                background-color: #000;
+                color: $uq-white;
+                background-color: $uq-black;
                 padding: 9px 23px 10px 23px;
                 letter-spacing: 0.4px;
 
@@ -179,7 +179,7 @@
                     bottom: 0px;
                     height: 209px;
                     z-index: -1;
-                    background: #eaeaea;
+                    background: $uq-gray;
 
                     @media (min-width: 768px) and (max-width: 992px) {
                         height: 169px;

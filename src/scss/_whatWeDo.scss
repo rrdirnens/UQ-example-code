@@ -11,7 +11,7 @@
     }
 
     //temporary
-    padding-bottom: 200px;
+    padding-bottom: 130px;
 
     .container {
         display: flex;
@@ -95,7 +95,7 @@
                 .link {
                     text-decoration: underline;
                     font: normal normal normal 20px/32px IBM Plex Sans;
-                    color: #000;
+                    color:$uq-black;
 
                     @media (max-width: 480px) {
                         font: normal normal normal 25px/35px IBM Plex Sans;
@@ -254,7 +254,7 @@
 
                     .line {
                         width: 6px;
-                        background: #000;
+                        background: $uq-black;
                         height: 100%;
 
                         @media (max-width: 480px) {
