@@ -1,13 +1,39 @@
+//Header block 
+.header {
+
+    //Elements
+    .header__part {
+
+    }
+
+    .header__part--left {
+
+    }
+
+    .header__part--right {
+
+    }
+
+    .header__logo {
+
+    }
+
+}
+
+
+
+
+
 // Header styling
 
-.header {
+.header-section {
     width: 100%;
     display: flex;
     justify-content: center;
     height: 82px;
     background-color: $uq-gray;
 
-    .header-cover {
+    .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
