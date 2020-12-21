@@ -14,13 +14,13 @@ function toggleMobileNavigation() {
     let mobileMenu = document.getElementById('mobile-nav-wrapper')
 
     //save the true/false state of whether or not wrapper has visibility class
-    let state = mobileMenu.classList.contains('mob-nav-on')
+    let state = mobileMenu.classList.contains('header__nav-menu-cover--mob-nav-on')
 
     //check visibility
     if (state === false) {
 
         //add class to mobile nav wrapper to toggle visibility (turn on)
-        mobileMenu.classList.add('mob-nav-on')
+        mobileMenu.classList.add('header__nav-menu-cover--mob-nav-on')
 
         //add class to mobile nav toggle
         navTrigger.classList.add('open')
@@ -28,7 +28,7 @@ function toggleMobileNavigation() {
     } else {
 
         //remove class from mobile nav wrapper to toggle visibility (turn off)
-        mobileMenu.classList.remove('mob-nav-on')
+        mobileMenu.classList.remove('header__nav-menu-cover--mob-nav-on')
 
         //add class to mobile nav toggle
         navTrigger.classList.remove('open')
