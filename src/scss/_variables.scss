@@ -84,3 +84,26 @@ $breakpoint-tablet: 768px;
     color: #000000;
     text-transform: uppercase;
 }
+
+//used in what we do sub ('we are drupal experts')
+.ten {
+    font: normal normal normal 20px/32px IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+//used in what we do link at end of sub ('why choose drupal')
+.eleven {
+    text-decoration: underline;
+    font: normal normal normal 20px/32px IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+//used in we work for section title ('we work for')
+.twelve {
+    font: normal normal bold 80px/132px Sora;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}

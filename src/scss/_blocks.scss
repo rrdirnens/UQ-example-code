@@ -1,0 +1,136 @@
+//CTA BUTTON block
+.cta-button {
+    font: normal normal normal 20px/40px Sora;
+    text-transform: uppercase;
+    color: $uq-white;
+    background-color: $uq-black;
+    letter-spacing: 0.4px;
+    padding: 9px 25px 8px 27px;
+
+    &:hover {
+        text-decoration: none;
+        color: #EAEAEA;
+    }
+}
+
+
+//PROJECT block
+.project {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+
+    @media (max-width: 480px) {
+        width: 100% !important;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 32px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1200px) {
+        margin-bottom: 25px;
+    }
+
+    @media (max-width: 1200px) {
+        flex-direction: column-reverse;
+    }
+
+    @media (max-width: 1440px) {
+        width: 100vw;
+    }
+
+    @at-root .project__left {
+        background-color: $uq-black;
+        padding: 30px 35px 30px 31px;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+
+        @media (min-width: 768px) and (max-width: 1200px) {
+            width: 71%;
+        }
+
+        @media (max-width: 1440px) {
+            flex: 331;
+        }
+
+        @media (min-width: 1441px) {
+            flex: 339;
+        }
+
+        @at-root .project__text {
+            color: $uq-white;
+            margin-bottom: 46px;
+            font: normal normal normal 17px/30px IBM Plex Sans;
+
+            @at-root .project__text--bold {
+                font: normal normal bold 17px/30px IBM Plex Sans;
+            }
+        }
+
+        @at-root .project__link {
+            color: $uq-white;
+
+            svg {
+                height: 26px;
+                width: 40px;
+
+                path {
+                    fill: $uq-white;
+                }
+            }
+        }
+    }
+
+    @at-root .project__right {
+        flex: 1388;
+        background-color: $uq-yellow;
+        height: 719px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (min-width: 1920px) {
+            max-width: 1125px;
+        }
+
+        @at-root &--yellow {
+            background-color: $uq-yellow;
+        }
+
+        @at-root &--red {
+            background-color: $uq-red;
+        }
+
+        @at-root &--blue {
+            background-color: $uq-blue;
+        }
+
+        @at-root .project__image {
+            @media (max-width: 1199px) {
+                width: 100%;
+            }
+
+            @media (min-width: 1200px) and (max-width: 1440px) {
+                height: 100%;
+            }
+
+            @media (min-width: 1440px) and (max-width: 1919px) {
+                height: 92%;
+            }
+
+            @media (min-width: 1920px) {
+                height: 100%;
+            }
+        }
+    }
+
+    .project__cta {
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+}

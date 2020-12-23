@@ -16,7 +16,7 @@
     width: 100%;
     position: relative;
 
-    //Elements
+    //Header elements & modifiers
     @at-root .header__part-left {
         display: flex;
         align-items: center;
@@ -200,7 +200,7 @@
     }
 }
 
-//Toggle block styling
+//Toggle block (lang switch) styling
 .toggle {
     cursor: pointer;
     padding: 0 6px;
