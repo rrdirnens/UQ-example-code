@@ -1,5 +1,5 @@
 //get the trigger for mobile nav
-let navTrigger = document.getElementById('mobile-nav-trigger')
+let navTrigger = document.querySelector('.menu-toggle-js')
 
 //set an event for click
 navTrigger.onclick = function () {
@@ -11,7 +11,7 @@ navTrigger.onclick = function () {
 function toggleMobileNavigation() {
 
     //get mobile nav wrapper
-    let mobileMenu = document.getElementById('mobile-nav-wrapper')
+    let mobileMenu = document.querySelector('.header__nav-menu-cover-js')
 
     //save the true/false state of whether or not wrapper has visibility class
     let state = mobileMenu.classList.contains('header__nav-menu-cover--mob-nav-on')
