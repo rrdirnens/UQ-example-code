@@ -26,6 +26,8 @@ $container-max-widths: (
 @import 'whatWeDo';
 @import 'weWorkFor';
 @import 'blocks';
+@import 'blocks/blocks_import';
+
 
 @import "node_modules/bootstrap/scss/bootstrap";
 

@@ -23,7 +23,7 @@ function toggleMobileNavigation() {
         mobileMenu.classList.add('header__nav-menu-cover--mob-nav-on')
 
         //add class to mobile nav toggle
-        navTrigger.classList.add('open')
+        navTrigger.classList.add('menu-toggle--open')
 
     } else {
 
@@ -31,7 +31,7 @@ function toggleMobileNavigation() {
         mobileMenu.classList.remove('header__nav-menu-cover--mob-nav-on')
 
         //add class to mobile nav toggle
-        navTrigger.classList.remove('open')
+        navTrigger.classList.remove('menu-toggle--open')
 
     }
 }
