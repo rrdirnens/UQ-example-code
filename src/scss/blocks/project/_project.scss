@@ -1,0 +1,32 @@
+//PROJECT block
+.project {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+
+    @media (max-width: 480px) {
+        width: 100% !important;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 32px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1200px) {
+        margin-bottom: 25px;
+    }
+
+    @media (max-width: 1200px) {
+        flex-direction: column-reverse;
+    }
+
+    @media (max-width: 1440px) {
+        width: 100vw;
+    }
+}
+
+@import 'project__left';
+@import 'project__right';
+@import 'project__text';
+@import 'project__link';
+@import 'project__image';
