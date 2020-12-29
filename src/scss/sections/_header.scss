@@ -5,4 +5,9 @@
     justify-content: center;
     height: 82px;
     background-color: $uq-gray;
+    padding-right: 52px;
+
+    @media (max-width: 767px) {
+        padding-right: 15px;
+    }
 }

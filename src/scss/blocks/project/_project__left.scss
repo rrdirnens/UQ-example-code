@@ -4,10 +4,12 @@
 
     @media (max-width: 768px) {
         width: 100%;
+        margin-bottom: 32px;
     }
 
     @media (min-width: 768px) and (max-width: 1200px) {
         width: 71%;
+        margin-bottom: 25px;
     }
 
     @media (max-width: 1440px) {

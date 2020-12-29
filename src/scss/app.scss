@@ -20,12 +20,11 @@ $container-max-widths: (
 
 //local stylesheets
 @import 'variables';
-@import 'header';
-@import 'hero';
-@import 'projects';
-@import 'services';
-@import 'clients';
-@import 'blocks';
+@import 'sections/header';
+@import 'sections/hero';
+@import 'sections/projects';
+@import 'sections/services';
+@import 'sections/clients';
 @import 'blocks/blocks_import';
 
 
